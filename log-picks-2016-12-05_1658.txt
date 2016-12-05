@@ -1,0 +1,251 @@
+==> /var/log/auth.log <==
+Dec  5 16:38:09 ubuntu systemd-logind[639]: New seat seat0.
+Dec  5 16:38:09 ubuntu systemd-logind[639]: Watching system buttons on /dev/input/event1 (Power Button)
+Dec  5 16:38:09 ubuntu systemd-logind[639]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec  5 16:38:09 ubuntu systemd-logind[639]: Watching system buttons on /dev/input/event8 (HP WMI hotkeys)
+Dec  5 16:38:13 ubuntu sshd[756]: Server listening on 0.0.0.0 port 22.
+Dec  5 16:38:13 ubuntu sshd[756]: Server listening on :: port 22.
+Dec  5 16:42:17 ubuntu sshd[794]: Accepted password for samppa from 172.28.172.67 port 44326 ssh2
+Dec  5 16:42:17 ubuntu sshd[794]: pam_unix(sshd:session): session opened for user samppa by (uid=0)
+Dec  5 16:42:17 ubuntu systemd-logind[639]: New session 1 of user samppa.
+Dec  5 16:42:17 ubuntu systemd: pam_unix(systemd-user:session): session opened for user samppa by (uid=0)
+Dec  5 16:45:04 ubuntu sudo: pam_unix(sudo:auth): authentication failure; logname=samppa uid=1000 euid=0 tty=/dev/pts/0 ruser=samppa rhost=  user=samppa
+Dec  5 16:45:11 ubuntu sudo:   samppa : TTY=pts/0 ; PWD=/home/samppa ; USER=root ; COMMAND=/usr/bin/lshw
+Dec  5 16:45:11 ubuntu sudo: pam_unix(sudo:session): session opened for user root by samppa(uid=0)
+Dec  5 16:45:12 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 16:51:54 ubuntu sudo:   samppa : TTY=pts/0 ; PWD=/var/log/installer ; USER=root ; COMMAND=/usr/bin/less syslog
+Dec  5 16:51:54 ubuntu sudo: pam_unix(sudo:session): session opened for user root by samppa(uid=0)
+Dec  5 16:52:16 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 16:52:48 ubuntu sudo:   samppa : TTY=pts/0 ; PWD=/var/log/installer ; USER=root ; COMMAND=/usr/bin/less status
+Dec  5 16:52:48 ubuntu sudo: pam_unix(sudo:session): session opened for user root by samppa(uid=0)
+Dec  5 16:53:16 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 16:55:12 ubuntu sudo:   samppa : TTY=pts/0 ; PWD=/home/samppa ; USER=root ; COMMAND=/usr/bin/apt-get -y install git
+Dec  5 16:55:12 ubuntu sudo: pam_unix(sudo:session): session opened for user root by samppa(uid=0)
+Dec  5 16:55:29 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 16:56:38 ubuntu sudo:   samppa : TTY=pts/0 ; PWD=/var/log/installer ; USER=root ; COMMAND=/usr/bin/less hardware-summary
+Dec  5 16:56:38 ubuntu sudo: pam_unix(sudo:session): session opened for user root by samppa(uid=0)
+Dec  5 16:56:47 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 16:57:17 ubuntu sudo:   samppa : TTY=pts/0 ; PWD=/home/samppa ; USER=root ; COMMAND=/bin/cp -r /var/log/installer/syslog H5-PXE-Preseed/
+Dec  5 16:57:17 ubuntu sudo: pam_unix(sudo:session): session opened for user root by samppa(uid=0)
+Dec  5 16:57:17 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 16:58:10 ubuntu sudo:   samppa : TTY=pts/0 ; PWD=/home/samppa/H5-PXE-Preseed ; USER=root ; COMMAND=/usr/bin/sudo tail --lines=100 /home/*/.bash_history /var/log/auth.log /var/log/apache2/*.log /var/log/syslog /var/log/installer/syslog /proc/uptime /etc/lsb-release
+Dec  5 16:58:10 ubuntu sudo: pam_unix(sudo:session): session opened for user root by samppa(uid=0)
+Dec  5 16:58:10 ubuntu sudo:     root : TTY=pts/0 ; PWD=/home/samppa/H5-PXE-Preseed ; USER=root ; COMMAND=/usr/bin/tail --lines=100 /home/*/.bash_history /var/log/auth.log /var/log/apache2/*.log /var/log/syslog /var/log/installer/syslog /proc/uptime /etc/lsb-release
+Dec  5 16:58:10 ubuntu sudo: pam_unix(sudo:session): session opened for user root by samppa(uid=0)
+Dec  5 16:58:10 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 16:58:10 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 16:58:30 ubuntu sudo:   samppa : TTY=pts/0 ; PWD=/home/samppa/H5-PXE-Preseed ; USER=root ; COMMAND=/usr/bin/tail --lines=100 /home/*/.bash_history /var/log/auth.log /var/log/apache2/*.log /var/log/syslog /var/log/installer/syslog /proc/uptime /etc/lsb-release
+Dec  5 16:58:30 ubuntu sudo: pam_unix(sudo:session): session opened for user root by samppa(uid=0)
+
+==> /var/log/syslog <==
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:change_hat: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:af_mask: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:version: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:policy: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:file: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:stack: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:set_load: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:change_profile: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:mask: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:change_onexec: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:versions: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:change_hatv: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:domain: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:change_hat: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:v7: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:version: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:policy: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:v6: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:stack: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:v5: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:set_load: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:change_profile: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:versions: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:change_onexec: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:change_hatv: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:v7: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:change_hat: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:v6: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:policy: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:v5: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:set_load: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:versions: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:00 ubuntu ureadahead[250]: ureadahead:v7: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:v6: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:v5: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: message repeated 5 times: [ ureadahead:.: Ignored relative path]
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:.features: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: message repeated 2 times: [ ureadahead:.features: Ignored relative path]
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:size: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:start: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: message repeated 5 times: [ ureadahead:.: Ignored relative path]
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:.replace: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: message repeated 4 times: [ ureadahead:.replace: Ignored relative path]
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:crontabs: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:eno1.dhclient_new.702: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:.: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: message repeated 18 times: [ ureadahead:.: Ignored relative path]
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:eno1.dhclient: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: message repeated 2 times: [ ureadahead:eno1.dhclient: Ignored relative path]
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:tracing_on: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:events/fs/open_exec/enable: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: ureadahead:events/fs/do_sys_open/enable: Ignored relative path
+Dec  5 16:39:01 ubuntu ureadahead[250]: Counted 4 CPUs
+Dec  5 16:39:01 ubuntu systemd[1]: Stopped Read required files in advance.
+Dec  5 16:40:15 ubuntu puppet-agent[778]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Dec  5 16:42:15 ubuntu puppet-agent[778]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Dec  5 16:42:17 ubuntu systemd[1]: Created slice User Slice of samppa.
+Dec  5 16:42:17 ubuntu systemd[1]: Started Session 1 of user samppa.
+Dec  5 16:42:17 ubuntu systemd[1]: Starting User Manager for UID 1000...
+Dec  5 16:42:17 ubuntu systemd[800]: Reached target Timers.
+Dec  5 16:42:17 ubuntu systemd[800]: Reached target Sockets.
+Dec  5 16:42:17 ubuntu systemd[800]: Reached target Paths.
+Dec  5 16:42:17 ubuntu systemd[800]: Reached target Basic System.
+Dec  5 16:42:17 ubuntu systemd[800]: Reached target Default.
+Dec  5 16:42:17 ubuntu systemd[800]: Startup finished in 125ms.
+Dec  5 16:42:17 ubuntu systemd[1]: Started User Manager for UID 1000.
+Dec  5 16:42:46 ubuntu dhclient[725]: DHCPREQUEST of 172.28.0.4 on eno1 to 172.28.172.67 port 67 (xid=0x5f35dc90)
+Dec  5 16:42:46 ubuntu dhclient[725]: DHCPACK of 172.28.0.4 from 172.28.172.67
+Dec  5 16:42:47 ubuntu dhclient[725]: bound to 172.28.0.4 -- renewal in 258 seconds.
+Dec  5 16:44:15 ubuntu puppet-agent[778]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Dec  5 16:46:15 ubuntu puppet-agent[778]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Dec  5 16:47:05 ubuntu dhclient[725]: DHCPREQUEST of 172.28.0.4 on eno1 to 172.28.172.67 port 67 (xid=0x5f35dc90)
+Dec  5 16:47:05 ubuntu dhclient[725]: DHCPACK of 172.28.0.4 from 172.28.172.67
+Dec  5 16:47:05 ubuntu dhclient[725]: bound to 172.28.0.4 -- renewal in 282 seconds.
+Dec  5 16:48:15 ubuntu puppet-agent[778]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Dec  5 16:50:15 ubuntu puppet-agent[778]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Dec  5 16:51:47 ubuntu dhclient[725]: DHCPREQUEST of 172.28.0.4 on eno1 to 172.28.172.67 port 67 (xid=0x5f35dc90)
+Dec  5 16:51:47 ubuntu dhclient[725]: DHCPACK of 172.28.0.4 from 172.28.172.67
+Dec  5 16:51:47 ubuntu dhclient[725]: bound to 172.28.0.4 -- renewal in 248 seconds.
+Dec  5 16:52:15 ubuntu puppet-agent[778]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Dec  5 16:53:16 ubuntu systemd[1]: Starting Cleanup of Temporary Directories...
+Dec  5 16:53:16 ubuntu systemd-tmpfiles[906]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Dec  5 16:53:16 ubuntu systemd[1]: Started Cleanup of Temporary Directories.
+Dec  5 16:54:15 ubuntu puppet-agent[778]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Dec  5 16:55:55 ubuntu dhclient[725]: DHCPREQUEST of 172.28.0.4 on eno1 to 172.28.172.67 port 67 (xid=0x5f35dc90)
+Dec  5 16:55:55 ubuntu dhclient[725]: DHCPACK of 172.28.0.4 from 172.28.172.67
+Dec  5 16:55:55 ubuntu dhclient[725]: bound to 172.28.0.4 -- renewal in 278 seconds.
+Dec  5 16:56:15 ubuntu puppet-agent[778]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+Dec  5 16:58:15 ubuntu puppet-agent[778]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: Name or service not known)
+
+==> /var/log/installer/syslog <==
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 finish-install: info: Running /usr/lib/finish-install.d/30hw-detect
+Dec  5 14:37:38 debconf: --> PROGRESS STEP 1
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/config-target-network
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 finish-install: info: Running /usr/lib/finish-install.d/50config-target-network
+Dec  5 14:37:38 debconf: --> PROGRESS STEP 1
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/netcfg-copy-config
+Dec  5 14:37:38 debconf: <-- 10 finish-install/progress/netcfg-copy-config does not exist
+Dec  5 14:37:38 debconf: --> SUBST finish-install/progress/fallback SCRIPT netcfg-copy-config
+Dec  5 14:37:38 debconf: Adding [SCRIPT] -> [netcfg-copy-config]
+Dec  5 14:37:38 debconf: <-- 0
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/fallback
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 finish-install: info: Running /usr/lib/finish-install.d/55netcfg-copy-config
+Dec  5 14:37:38 debconf: --> GET mirror/protocol
+Dec  5 14:37:38 debconf: <-- 0 http
+Dec  5 14:37:38 debconf: --> GET mirror/http/proxy
+Dec  5 14:37:38 debconf: <-- 0 
+Dec  5 14:37:38 debconf: --> GET debconf/priority
+Dec  5 14:37:38 debconf: <-- 0 critical
+Dec  5 14:37:38 debconf: --> GET debian-installer/locale
+Dec  5 14:37:38 debconf: <-- 0 en_US.UTF-8
+Dec  5 14:37:38 debconf: --> GET netcfg/target_network_config
+Dec  5 14:37:38 debconf: <-- 0 
+Dec  5 14:37:38 debconf: --> SET netcfg/target_network_config ifupdown
+Dec  5 14:37:38 debconf: <-- 0 value set
+Dec  5 14:37:38 debconf: --> GET netcfg/target_network_config
+Dec  5 14:37:38 debconf: <-- 0 ifupdown
+Dec  5 14:37:38 debconf: --> PROGRESS STEP 1
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/cleanup
+Dec  5 14:37:38 debconf: <-- 10 finish-install/progress/cleanup does not exist
+Dec  5 14:37:38 debconf: --> SUBST finish-install/progress/fallback SCRIPT cleanup
+Dec  5 14:37:38 debconf: Adding [SCRIPT] -> [cleanup]
+Dec  5 14:37:38 debconf: <-- 0
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/fallback
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 finish-install: info: Running /usr/lib/finish-install.d/60cleanup
+Dec  5 14:37:38 debconf: --> PROGRESS STEP 1
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/partman-md
+Dec  5 14:37:38 debconf: <-- 10 finish-install/progress/partman-md does not exist
+Dec  5 14:37:38 debconf: --> SUBST finish-install/progress/fallback SCRIPT partman-md
+Dec  5 14:37:38 debconf: Adding [SCRIPT] -> [partman-md]
+Dec  5 14:37:38 debconf: <-- 0
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/fallback
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 finish-install: info: Running /usr/lib/finish-install.d/65partman-md
+Dec  5 14:37:38 debconf: --> PROGRESS STEP 1
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/mtab
+Dec  5 14:37:38 debconf: <-- 10 finish-install/progress/mtab does not exist
+Dec  5 14:37:38 debconf: --> SUBST finish-install/progress/fallback SCRIPT mtab
+Dec  5 14:37:38 debconf: Adding [SCRIPT] -> [mtab]
+Dec  5 14:37:38 debconf: <-- 0
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/fallback
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 finish-install: info: Running /usr/lib/finish-install.d/70mtab
+Dec  5 14:37:38 debconf: --> PROGRESS STEP 1
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/base-installer
+Dec  5 14:37:38 debconf: <-- 10 finish-install/progress/base-installer does not exist
+Dec  5 14:37:38 debconf: --> SUBST finish-install/progress/fallback SCRIPT base-installer
+Dec  5 14:37:38 debconf: Adding [SCRIPT] -> [base-installer]
+Dec  5 14:37:38 debconf: <-- 0
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/fallback
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 finish-install: info: Running /usr/lib/finish-install.d/90base-installer
+Dec  5 14:37:38 debconf: --> PROGRESS STEP 1
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/console
+Dec  5 14:37:38 debconf: <-- 10 finish-install/progress/console does not exist
+Dec  5 14:37:38 debconf: --> SUBST finish-install/progress/fallback SCRIPT console
+Dec  5 14:37:38 debconf: Adding [SCRIPT] -> [console]
+Dec  5 14:37:38 debconf: <-- 0
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/fallback
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 finish-install: info: Running /usr/lib/finish-install.d/90console
+Dec  5 14:37:38 debconf: --> GET finish-install/keep-consoles
+Dec  5 14:37:38 debconf: <-- 0 false
+Dec  5 14:37:38 debconf: --> PROGRESS STEP 1
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/random-seed
+Dec  5 14:37:38 debconf: <-- 10 finish-install/progress/random-seed does not exist
+Dec  5 14:37:38 debconf: --> SUBST finish-install/progress/fallback SCRIPT random-seed
+Dec  5 14:37:38 debconf: Adding [SCRIPT] -> [random-seed]
+Dec  5 14:37:38 debconf: <-- 0
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/fallback
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 finish-install: info: Running /usr/lib/finish-install.d/94random-seed
+Dec  5 14:37:38 debconf: --> PROGRESS STEP 1
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 debconf: --> PROGRESS INFO finish-install/progress/save-logs
+Dec  5 14:37:38 debconf: <-- 0 OK
+Dec  5 14:37:38 finish-install: info: Running /usr/lib/finish-install.d/94save-logs
+Dec  5 14:37:38 debconf: --> X_SAVE
+Dec  5 14:37:39 debconf: <-- 0 OK
+
+==> /proc/uptime <==
+1234.14 4855.89
+
+==> /etc/lsb-release <==
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.1 LTS"
