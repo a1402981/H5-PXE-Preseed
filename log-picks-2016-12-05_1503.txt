@@ -1,0 +1,212 @@
+==> /var/log/auth.log <==
+Dec  5 12:50:19 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 12:51:07 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/bin/nano dhcpd.conf
+Dec  5 12:51:07 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 12:53:13 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 12:53:26 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/bin/nano dhcpd.conf
+Dec  5 12:53:26 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 12:53:41 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 12:53:59 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/usr/sbin/service isc-dhcp-server restart
+Dec  5 12:53:59 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 12:53:59 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 12:55:07 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/bin/nano dhcpd.conf
+Dec  5 12:55:07 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 12:56:18 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 12:57:13 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/usr/bin/apt-get -y install tftp-hpa tftpd-hpa
+Dec  5 12:57:13 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 12:57:16 xubuntu groupadd[9845]: group added to /etc/group: name=tftp, GID=130
+Dec  5 12:57:16 xubuntu groupadd[9845]: group added to /etc/gshadow: name=tftp
+Dec  5 12:57:16 xubuntu groupadd[9845]: new group: name=tftp, GID=130
+Dec  5 12:57:16 xubuntu useradd[9849]: new user: name=tftp, UID=122, GID=130, home=/var/lib/tftpboot, shell=/bin/false
+Dec  5 12:57:16 xubuntu usermod[9854]: change user 'tftp' password
+Dec  5 12:57:16 xubuntu chage[9859]: changed password expiry for tftp
+Dec  5 12:57:16 xubuntu chfn[9862]: changed user 'tftp' information
+Dec  5 12:57:18 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:03:09 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/home/xubuntu/Downloads ; USER=root ; COMMAND=/bin/cp -r ldlinux.c32 netboot.tar.gz pxelinux.0 pxelinux.cfg ubuntu-installer version.info /var/lib/tftpboot
+Dec  5 13:03:09 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:03:09 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:06:15 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/var/lib/tftpboot/ubuntu-installer/amd64/boot-screens ; USER=root ; COMMAND=/bin/nano syslinux.cfg
+Dec  5 13:06:15 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:10:01 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:12:17 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/var/lib/tftpboot/ubuntu-installer/amd64/boot-screens ; USER=root ; COMMAND=/bin/nano dhcpd.conf
+Dec  5 13:12:17 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:12:20 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:12:36 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/var/lib/tftpboot/ubuntu-installer/amd64/boot-screens ; USER=root ; COMMAND=/bin/nano dhcpd.conf
+Dec  5 13:12:36 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:12:40 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:12:51 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/var/lib/tftpboot/ubuntu-installer/amd64/boot-screens ; USER=root ; COMMAND=/bin/nano syslinux.cfg
+Dec  5 13:12:51 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:14:49 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:15:35 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/bin/nano dhcpd.conf
+Dec  5 13:15:35 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:15:56 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:16:02 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/bin/nano dhcpd.conf
+Dec  5 13:16:02 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:17:01 xubuntu CRON[10077]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec  5 13:17:01 xubuntu CRON[10077]: pam_unix(cron:session): session closed for user root
+Dec  5 13:17:09 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:17:26 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/usr/sbin/service isc-dhcp-server restart
+Dec  5 13:17:26 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:17:27 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:18:27 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/bin/nano dhcpd.conf
+Dec  5 13:18:27 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:19:18 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:20:10 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/bin/nano dhcpd.conf
+Dec  5 13:20:10 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:20:17 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:20:23 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/usr/sbin/service isc-dhcp-server restart
+Dec  5 13:20:23 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:20:23 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:22:03 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/bin/nano dhcpd.conf
+Dec  5 13:22:03 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:22:19 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:22:33 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/bin/nano dhcpd.conf
+Dec  5 13:22:33 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:23:04 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:23:08 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/etc/dhcp ; USER=root ; COMMAND=/usr/sbin/service isc-dhcp-server restart
+Dec  5 13:23:08 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:23:08 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:26:55 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/var/lib/tftpboot/ubuntu-installer/amd64 ; USER=root ; COMMAND=/bin/nano preseed.cfg
+Dec  5 13:26:55 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:27:59 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:31:42 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/var/lib/tftpboot/ubuntu-installer/amd64/boot-screens ; USER=root ; COMMAND=/bin/nano syslinux.cfg
+Dec  5 13:31:42 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:32:56 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:34:27 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/var/lib/tftpboot/ubuntu-installer/amd64/boot-screens ; USER=root ; COMMAND=/bin/nano preseed.cfg
+Dec  5 13:34:27 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:34:29 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:34:54 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/var/lib/tftpboot/ubuntu-installer/amd64 ; USER=root ; COMMAND=/bin/nano preseed.cfg
+Dec  5 13:34:54 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:38:20 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:40:55 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/tail --lines=100 /home/*/.bash_history /var/log/auth.log /var/log/apache2/*.log /var/log/syslog /var/log/installer/syslog /proc/uptime /etc/lsb-release
+Dec  5 13:40:55 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:40:55 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:48:27 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/home/xubuntu/H5-PXE-Preseed ; USER=root ; COMMAND=/bin/nano log-picks-2016-12-05_1340.txt
+Dec  5 13:48:27 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:48:35 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 13:49:36 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/home/xubuntu/H5-PXE-Preseed ; USER=root ; COMMAND=/bin/nano log-picks-2016-12-05_1340.txt
+Dec  5 13:49:36 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 13:50:11 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 14:17:01 xubuntu CRON[10635]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec  5 14:17:01 xubuntu CRON[10635]: pam_unix(cron:session): session closed for user root
+Dec  5 14:38:38 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/var/lib/tftpboot/ubuntu-installer/amd64/boot-screens ; USER=root ; COMMAND=/usr/bin/apt-get -y install ssh
+Dec  5 14:38:38 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec  5 14:38:42 xubuntu useradd[11707]: new user: name=sshd, UID=123, GID=65534, home=/var/run/sshd, shell=/usr/sbin/nologin
+Dec  5 14:38:42 xubuntu usermod[11712]: change user 'sshd' password
+Dec  5 14:38:42 xubuntu chage[11717]: changed password expiry for sshd
+Dec  5 14:38:42 xubuntu sshd[11796]: Server listening on 0.0.0.0 port 22.
+Dec  5 14:38:42 xubuntu sshd[11796]: Server listening on :: port 22.
+Dec  5 14:38:43 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec  5 15:03:38 xubuntu sudo:  xubuntu : TTY=pts/4 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/tail --lines=100 /home/*/.bash_history /var/log/auth.log /var/log/apache2/*.log /var/log/syslog /var/log/installer/syslog /proc/uptime /etc/lsb-release
+Dec  5 15:03:38 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+
+==> /var/log/syslog <==
+Dec  5 14:38:42 xubuntu systemd[1]: Reloading.
+Dec  5 14:38:42 xubuntu systemd[1]: snapd.refresh.timer: Adding 5h 58min 49.626512s random time.
+Dec  5 14:38:42 xubuntu systemd[1]: apt-daily.timer: Adding 8h 29min 38.689271s random time.
+Dec  5 14:38:42 xubuntu systemd[1]: Started CUPS Scheduler.
+Dec  5 14:38:42 xubuntu systemd[1]: Started ACPI event daemon.
+Dec  5 14:38:42 xubuntu systemd[1]: Reloading.
+Dec  5 14:38:42 xubuntu systemd[1]: snapd.refresh.timer: Adding 4h 36min 59.333787s random time.
+Dec  5 14:38:42 xubuntu systemd[1]: apt-daily.timer: Adding 3h 6min 43.713670s random time.
+Dec  5 14:38:42 xubuntu systemd[1]: Started CUPS Scheduler.
+Dec  5 14:38:42 xubuntu systemd[1]: Started ACPI event daemon.
+Dec  5 14:38:42 xubuntu systemd[1]: Reloading.
+Dec  5 14:38:42 xubuntu systemd[1]: snapd.refresh.timer: Adding 1h 35min 33.898697s random time.
+Dec  5 14:38:42 xubuntu systemd[1]: apt-daily.timer: Adding 6h 2min 43.858764s random time.
+Dec  5 14:38:42 xubuntu systemd[1]: Started CUPS Scheduler.
+Dec  5 14:38:42 xubuntu systemd[1]: Started ACPI event daemon.
+Dec  5 14:38:42 xubuntu systemd[1]: Starting OpenBSD Secure Shell server...
+Dec  5 14:38:42 xubuntu systemd[1]: Started OpenBSD Secure Shell server.
+Dec  5 14:38:43 xubuntu systemd[1]: Reloading.
+Dec  5 14:38:43 xubuntu systemd[1]: snapd.refresh.timer: Adding 2h 31min 41.116819s random time.
+Dec  5 14:38:43 xubuntu systemd[1]: apt-daily.timer: Adding 6h 47min 36.732767s random time.
+Dec  5 14:38:43 xubuntu systemd[1]: Started CUPS Scheduler.
+Dec  5 14:38:43 xubuntu systemd[1]: Started ACPI event daemon.
+Dec  5 14:38:53 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:c1:11:03 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:38:55 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.171.195 (172.28.170.201) from 78:ac:c0:c1:11:03 via eno1: unknown lease 172.28.171.195.
+Dec  5 14:39:02 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:c1:04:a5 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:39:04 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.172.136 (172.28.170.202) from 78:ac:c0:c1:04:a5 via eno1: unknown lease 172.28.172.136.
+Dec  5 14:39:25 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:c0:8e:27 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:39:27 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.171.161 (172.28.170.201) from 78:ac:c0:c0:8e:27 via eno1: unknown lease 172.28.171.161.
+Dec  5 14:40:09 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.171.18 from 78:ac:c0:c1:0a:42 via eno1: unknown lease 172.28.171.18.
+Dec  5 14:40:26 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.172.155 via eno1
+Dec  5 14:40:26 xubuntu dhcpd[10164]: DHCPACK to 172.28.172.155 (e8:39:35:3e:14:b1) via eno1
+Dec  5 14:40:26 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.171.18 via eno1
+Dec  5 14:40:26 xubuntu dhcpd[10164]: DHCPACK to 172.28.171.18 (78:ac:c0:c1:0a:42) via eno1
+Dec  5 14:40:43 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:c1:04:a5 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:40:44 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.171.43 (172.28.170.201) from 78:ac:c0:c1:04:a5 via eno1: unknown lease 172.28.171.43.
+Dec  5 14:41:06 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:c0:8e:27 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:41:07 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.172.166 (172.28.170.202) from 78:ac:c0:c0:8e:27 via eno1: unknown lease 172.28.172.166.
+Dec  5 14:41:51 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.172.90 from 78:ac:c0:c1:1b:61 via eno1: unknown lease 172.28.172.90.
+Dec  5 14:42:15 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.172.90 via eno1
+Dec  5 14:42:15 xubuntu dhcpd[10164]: DHCPACK to 172.28.172.90 (78:ac:c0:c1:1b:61) via eno1
+Dec  5 14:42:19 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.171.18 via eno1
+Dec  5 14:42:19 xubuntu dhcpd[10164]: DHCPACK to 172.28.171.18 (78:ac:c0:c1:0a:42) via eno1
+Dec  5 14:42:46 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.0.4 from 78:ac:c0:c2:8b:b5 via eno1
+Dec  5 14:42:46 xubuntu dhcpd[10164]: DHCPACK on 172.28.0.4 to 78:ac:c0:c2:8b:b5 via eno1
+Dec  5 14:43:02 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:ba:7b:63 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:43:04 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.172.10 (172.28.170.202) from 78:ac:c0:ba:7b:63 via eno1: unknown lease 172.28.172.10.
+Dec  5 14:43:46 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:c0:88:49 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:43:48 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.171.247 (172.28.170.201) from 78:ac:c0:c0:88:49 via eno1: unknown lease 172.28.171.247.
+Dec  5 14:44:36 xubuntu dbus[3967]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Dec  5 14:44:36 xubuntu systemd[1]: Starting Hostname Service...
+Dec  5 14:44:36 xubuntu dbus[3967]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Dec  5 14:44:36 xubuntu systemd[1]: Started Hostname Service.
+Dec  5 14:44:41 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:c0:88:49 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:44:43 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.171.247 (172.28.170.201) from 78:ac:c0:c0:88:49 via eno1: unknown lease 172.28.171.247.
+Dec  5 14:44:50 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:ba:7b:63 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:44:51 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.171.142 (172.28.170.201) from 78:ac:c0:ba:7b:63 via eno1: unknown lease 172.28.171.142.
+Dec  5 14:45:49 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:c1:0a:96 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:45:50 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.171.159 (172.28.170.201) from 78:ac:c0:c1:0a:96 via eno1: unknown lease 172.28.171.159.
+Dec  5 14:46:03 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.171.18 via eno1
+Dec  5 14:46:03 xubuntu dhcpd[10164]: DHCPACK to 172.28.171.18 (78:ac:c0:c1:0a:42) via eno1
+Dec  5 14:46:28 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.171.159 via eno1
+Dec  5 14:46:28 xubuntu dhcpd[10164]: DHCPACK to 172.28.171.159 (78:ac:c0:c1:0a:96) via eno1
+Dec  5 14:47:05 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.0.4 from 78:ac:c0:c2:8b:b5 via eno1
+Dec  5 14:47:05 xubuntu dhcpd[10164]: DHCPACK on 172.28.0.4 to 78:ac:c0:c2:8b:b5 via eno1
+Dec  5 14:47:21 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:c0:97:e7 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:47:23 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.172.240 (172.28.170.202) from 78:ac:c0:c0:97:e7 via eno1: unknown lease 172.28.172.240.
+Dec  5 14:47:38 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.171.159 via eno1
+Dec  5 14:47:38 xubuntu dhcpd[10164]: DHCPACK to 172.28.171.159 (78:ac:c0:c1:0a:96) via eno1
+Dec  5 14:47:48 xubuntu dbus[3967]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Dec  5 14:47:48 xubuntu systemd[1]: Starting Hostname Service...
+Dec  5 14:47:48 xubuntu dbus[3967]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Dec  5 14:47:48 xubuntu systemd[1]: Started Hostname Service.
+Dec  5 14:49:28 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:c1:0a:85 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:49:30 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.171.28 (172.28.170.201) from 78:ac:c0:c1:0a:85 via eno1: unknown lease 172.28.171.28.
+Dec  5 14:50:28 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.172.155 via eno1
+Dec  5 14:50:28 xubuntu dhcpd[10164]: DHCPACK to 172.28.172.155 (e8:39:35:3e:14:b1) via eno1
+Dec  5 14:50:39 xubuntu dbus[3967]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Dec  5 14:50:39 xubuntu systemd[1]: Starting Hostname Service...
+Dec  5 14:50:40 xubuntu dbus[3967]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Dec  5 14:50:40 xubuntu systemd[1]: Started Hostname Service.
+Dec  5 14:51:26 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:c0:8e:27 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:51:27 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.172.166 (172.28.170.202) from 78:ac:c0:c0:8e:27 via eno1: unknown lease 172.28.172.166.
+Dec  5 14:51:47 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.0.4 from 78:ac:c0:c2:8b:b5 via eno1
+Dec  5 14:51:47 xubuntu dhcpd[10164]: DHCPACK on 172.28.0.4 to 78:ac:c0:c2:8b:b5 via eno1
+Dec  5 14:52:01 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.172.166 via eno1
+Dec  5 14:52:01 xubuntu dhcpd[10164]: DHCPACK to 172.28.172.166 (78:ac:c0:c0:8e:27) via eno1
+Dec  5 14:53:11 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.172.166 via eno1
+Dec  5 14:53:11 xubuntu dhcpd[10164]: DHCPACK to 172.28.172.166 (78:ac:c0:c0:8e:27) via eno1
+Dec  5 14:55:51 xubuntu dhcpd[10164]: DHCPDISCOVER from 78:ac:c0:ba:7b:63 via eno1: network 172.28.0.0/16: no free leases
+Dec  5 14:55:52 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.171.142 (172.28.170.201) from 78:ac:c0:ba:7b:63 via eno1: unknown lease 172.28.171.142.
+Dec  5 14:55:55 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.0.4 from 78:ac:c0:c2:8b:b5 via eno1
+Dec  5 14:55:55 xubuntu dhcpd[10164]: DHCPACK on 172.28.0.4 to 78:ac:c0:c2:8b:b5 via eno1
+Dec  5 14:56:29 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.171.142 via eno1
+Dec  5 14:56:29 xubuntu dhcpd[10164]: DHCPACK to 172.28.171.142 (78:ac:c0:ba:7b:63) via eno1
+Dec  5 14:57:38 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.171.142 via eno1
+Dec  5 14:57:38 xubuntu dhcpd[10164]: DHCPACK to 172.28.171.142 (78:ac:c0:ba:7b:63) via eno1
+Dec  5 15:00:31 xubuntu dhcpd[10164]: DHCPINFORM from 172.28.172.155 via eno1
+Dec  5 15:00:31 xubuntu dhcpd[10164]: DHCPACK to 172.28.172.155 (e8:39:35:3e:14:b1) via eno1
+Dec  5 15:00:33 xubuntu dhcpd[10164]: DHCPREQUEST for 172.28.0.4 from 78:ac:c0:c2:8b:b5 via eno1
+Dec  5 15:00:33 xubuntu dhcpd[10164]: DHCPACK on 172.28.0.4 to 78:ac:c0:c2:8b:b5 via eno1
+
+==> /proc/uptime <==
+10337.69 39948.65
+
+==> /etc/lsb-release <==
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.1 LTS"
